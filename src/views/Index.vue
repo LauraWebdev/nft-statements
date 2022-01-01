@@ -10,7 +10,7 @@
                         <th>Project</th>
                         <th>Company</th>
                         <th>Person</th>
-                        <th width="100px">Does NFT?</th>
+                        <th width="100px">Involved?</th>
                         <th width="100px">Interested?</th>
                         <th width="50px"></th>
                     </tr>
@@ -20,7 +20,7 @@
                         <td>{{ item.project }}</td>
                         <td>{{ item.company }}</td>
                         <td>{{ item.person }}</td>
-                        <td style="text-align: center">{{ item.nftStance.doesNFT ? 'Yes' : 'No'}}</td>
+                        <td style="text-align: center">{{ item.nftStance.involved ? 'Yes' : 'No'}}</td>
                         <td style="text-align: center">{{ item.nftStance.interested ? 'Yes' : 'No'}}</td>
                         <td><router-link :to="`/detail/${item.slug}`">Detail</router-link></td>
                     </tr>

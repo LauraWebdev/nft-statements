@@ -5,7 +5,7 @@
   "when": 1640995200,
   "nftStance": {
     "interested": false,
-    "doesNFT": false,
+    "involved": false,
     "quote": "What you shouldn't publish on Steam: Applications built on blockchain technology that issue or allow exchange of cryptocurrencies or NFTs."
   },
   "sources": [

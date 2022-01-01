@@ -5,7 +5,7 @@
             <h2>{{ data.project }}</h2>
             <h3>{{ data.person }}</h3>
             <p>"{{ data.nftStance.quote }}"</p>
-            <p>Does NFT? {{ data.nftStance.doesNFT ? 'Yes' : 'No' }}</p>
+            <p>Involved in NFT projects? {{ data.nftStance.involved ? 'Yes' : 'No' }}</p>
             <p>Is interested? {{ data.nftStance.interested ? 'Yes' : 'No' }}</p>
             <hr />
             <h3>Sources</h3>

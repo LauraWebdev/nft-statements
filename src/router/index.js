@@ -3,7 +3,8 @@ import VueRouter from 'vue-router';
 
 import ViewIndex from '../views/Index.vue';
 import ViewDetail from '../views/Detail.vue';
-import ViewAbout from '../views/About.vue';
+import ViewFAQ from '../views/FAQ.vue';
+import ViewAPI from '../views/API.vue';
 
 Vue.use(VueRouter);
 
@@ -19,9 +20,14 @@ const routes = [
         component: ViewDetail,
     },
     {
-        path: '/about',
-        name: 'About',
-        component: ViewAbout,
+        path: '/faq',
+        name: 'FAQ',
+        component: ViewFAQ,
+    },
+    {
+        path: '/api',
+        name: 'API',
+        component: ViewAPI,
     },
 ];
 
