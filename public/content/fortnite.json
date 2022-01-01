@@ -1,0 +1,15 @@
+{
+  "person": "Tim Sweeny",
+  "company": "Epic Games",
+  "project": "Fortnite",
+  "when": 1632700800,
+  "nftStance": {
+    "interested": false,
+    "involved": false,
+    "quote": "We aren’t touching NFTs as the whole field is currently tangled up with an intractable mix of scams, interesting decentralized tech foundations, and scams."
+  },
+  "sources": [
+    "https://twitter.com/TimSweeneyEpic/status/1442519522875949061",
+    "https://www.theverge.com/2021/9/27/22696978/epic-tim-sweeney-nft-scam-concerns-web-3"
+  ]
+}

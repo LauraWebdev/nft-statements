@@ -1,0 +1,15 @@
+{
+  "person": "Tim Sweeny",
+  "company": "Epic Games",
+  "project": "Epic Games Store",
+  "when": 1634256000,
+  "nftStance": {
+    "interested": true,
+    "involved": false,
+    "quote": "Epic Games Store will welcome games that make use of blockchain tech provided they follow the relevant laws, disclose their terms, and are age-rated by an appropriate group."
+  },
+  "sources": [
+    "https://twitter.com/TimSweeneyEpic/status/1449146317129895938",
+    "https://www.theverge.com/2021/10/15/22729050/epic-game-store-open-to-blockchain-cryptocurrency-nft-games"
+  ]
+}
