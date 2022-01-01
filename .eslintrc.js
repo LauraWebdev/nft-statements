@@ -16,10 +16,11 @@ module.exports = {
     'rules': {
         'indent': ['error', 4],
         'vue/html-indent': ['error', 4],
-        'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+        'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
         'semi': [2, 'always'],
         'comma-dangle': ['error', 'always-multiline'],
         'vue/require-default-prop': 'off',
+        'vue/singleline-html-element-content-newline': 'off',
         'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
         'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     },

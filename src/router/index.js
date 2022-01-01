@@ -14,7 +14,7 @@ const routes = [
         component: ViewIndex,
     },
     {
-        path: '/detail/{slug}',
+        path: '/detail/:slug',
         name: 'Detail',
         component: ViewDetail,
     },
