@@ -4,7 +4,7 @@
             <h1>{{ data.company }}</h1>
             <h2>{{ data.project }}</h2>
             <h3>{{ data.person }}</h3>
-            <p>"{{ data.nftStance.quote }}"</p>
+            <p style="white-space: pre-line;">"{{ data.nftStance.quote }}"</p>
             <p>Involved in NFT projects? {{ data.nftStance.involved ? 'Yes' : 'No' }}</p>
             <p>Is interested? {{ data.nftStance.interested ? 'Yes' : 'No' }}</p>
             <hr>
