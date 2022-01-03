@@ -1,22 +1,25 @@
 <template>
     <header>
         <div class="wrapper">
-            <router-link to="/" class="brand">
+            <router-link
+                to="/"
+                class="brand"
+            >
                 <h1><span>NFT</span>statements</h1>
                 <p>A publicly available and filterable list of companies, projects and individuals and their stance on NFTs</p>
             </router-link>
 
             <nav>
                 <router-link to="/">
-                    <span class="mdi mdi-format-list-text"></span>
+                    <span class="mdi mdi-format-list-text" />
                     <span>INDEX</span>
                 </router-link>
                 <router-link to="/faq">
-                    <span class="mdi mdi-frequently-asked-questions"></span>
+                    <span class="mdi mdi-frequently-asked-questions" />
                     <span>FAQ</span>
                 </router-link>
                 <router-link to="/api">
-                    <span class="mdi mdi-widgets-outline"></span>
+                    <span class="mdi mdi-widgets-outline" />
                     <span>API</span>
                 </router-link>
             </nav>

@@ -3,11 +3,20 @@
         <div class="wrapper">
             <div>
                 <span>Created out of spite and anger by</span>
-                <a href="https://laura.media" target="_blank">Laura Heimann</a>
+                <a
+                    href="https://laura.media"
+                    target="_blank"
+                >Laura Heimann</a>
             </div>
             <nav>
-                <a href="https://laura.media/legal" target="_blank">LEGAL</a>
-                <a href="https://github.com/LauraWebdev/nft-statements" target="_blank">GITHUB</a>
+                <a
+                    href="https://laura.media/legal"
+                    target="_blank"
+                >LEGAL</a>
+                <a
+                    href="https://github.com/LauraWebdev/nft-statements"
+                    target="_blank"
+                >GITHUB</a>
             </nav>
         </div>
     </footer>

@@ -15,7 +15,7 @@ module.exports = {
     ],
     'rules': {
         'indent': ['error', 4],
-        'vue/html-indent': ['error', 4, { "ignores": ["VElement[name=pre].children"] }],
+        'vue/html-indent': ['error', 4, { 'ignores': ['VElement[name=pre].children'] }],
         'quotes': ['warn', 'single', { 'allowTemplateLiterals': true }],
         'semi': [2, 'always'],
         'comma-dangle': ['error', 'always-multiline'],

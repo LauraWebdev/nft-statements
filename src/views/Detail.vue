@@ -7,10 +7,15 @@
             <p>"{{ data.nftStance.quote }}"</p>
             <p>Involved in NFT projects? {{ data.nftStance.involved ? 'Yes' : 'No' }}</p>
             <p>Is interested? {{ data.nftStance.interested ? 'Yes' : 'No' }}</p>
-            <hr />
+            <hr>
             <h3>Sources</h3>
             <ul>
-                <li v-for="source in data.sources" :key="source">{{ source }}</li>
+                <li
+                    v-for="source in data.sources"
+                    :key="source"
+                >
+                    {{ source }}
+                </li>
             </ul>
         </div>
         <div v-if="state === 'error'">Error loading, try again later.</div>
