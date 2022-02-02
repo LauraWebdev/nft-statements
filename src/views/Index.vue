@@ -120,15 +120,18 @@ export default {
                 this.state = 'loading';
                 console.log('Loading Content');
 
-                axios.get(process.env.BASE_URL + 'content/index.json').then(data => {
+                axios.get(process.env.BASE_URL + 'content/index.json?v=' + new Date().getTime()).then(data => {
                     let items = data.data.items;
 
                     items.forEach(async item => {
                         console.log('Loading ' + item);
-                        let itemData = await axios.get(process.env.BASE_URL + 'content/' + item + '.json');
+                        let itemData = await axios.get(process.env.BASE_URL + 'content/' + item + '.json?v=' + new Date().getTime());
                         itemData.data.slug = item;
                         this.items.push(itemData.data);
                     });
+
+                    // Sort by project
+                    this.items.sort((a, b) => (a.project > b.project) ? 1 : -1);
 
                     console.log('Done Content Loading');
 
