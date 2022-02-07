@@ -1,0 +1,15 @@
+{
+  "person": "Valve",
+  "company": "Valve",
+  "project": "Steam",
+  "when": 1640995200,
+  "nftStance": {
+    "interested": false,
+    "involved": false,
+    "quote": "What you shouldn't publish on Steam: Applications built on blockchain technology that issue or allow exchange of cryptocurrencies or NFTs."
+  },
+  "sources": [
+    "https://partner.steamgames.com/doc/gettingstarted/onboarding",
+    "https://www.theverge.com/2021/10/15/22728425/valve-steam-blockchain-nft-crypto-ban-games-age-of-rust"
+  ]
+}
